@@ -1,0 +1,109 @@
+body {
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 200;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h3 {
+	font-family: 'Average', serif;
+	
+}
+
+h4 {
+	line-height: 140%;
+}
+
+.center {
+	text-align: center;
+}
+
+.lead h4 a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.lead h4 a:hover {
+	text-decoration: underline;
+}
+
+.top a, .top a:link, .top a:visited, .top a:hover, .top a:active {
+	text-decoration: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.top {
+	color: white;
+    height: 97vh;
+    margin: 10px;
+    background: #2c475c;
+}
+
+.lead {
+	margin-top: 20vh;
+	margin-left: 10%;
+	text-decoration: none;
+}
+
+.fa {
+	color: #FFF;
+	font-size: 16pt;
+	padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+
+}
+
+.social a {
+	float: left;
+	display: block;
+	width: 30px;
+	text-align: center;
+}
+
+.social a:hover {
+	border-bottom: 3px solid #FFF;
+}
+
+.card {
+	height: 520px;
+	margin: 10px;
+	padding: 20px;
+	background-color: rgba(224,224,224,0.1);
+	border: 1px solid white;
+
+}
+
+
+
+.card-img {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.card a {
+	color: black;
+}
+
+.card a.link {
+	text-decoration: underline;
+}
+
+
+@media (max-width: 760px) {
+	.lead {
+		margin-top: 0;
+		margin-left: 0;
+	}
+}
