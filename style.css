@@ -1,5 +1,7 @@
 body {
 	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 200;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1, h3 {
